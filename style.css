@@ -2,13 +2,25 @@ body{
     background: linear-gradient(white, black);
     height: 1900px;
     overflow: hidden;
-    font-family: courier;
+    font-family: sans-serif;
 }
 .webMark{
-  font-family: courier;
   position: relative;
   top: 0;
 }
 .mongus{
   float: left;
+}
+.topText{
+  font-size: 40px;
+  line-height: 50px;
+}
+.bottomText{
+  line-height: 0px;
+}
+r{
+  color: red;
+}
+.web{
+  border-bottom: 3px solid black;
 }
