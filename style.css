@@ -26,6 +26,7 @@ r {
 }
 
 .web {
+  text-align: center;
   border-bottom: 3px solid black;
 }
 
@@ -42,7 +43,7 @@ r {
   background-color: white;
   overflow: hidden;
   transition: all 2s;
-  width: 20%;
+  width: 400px;
 }
 
 .topnav a {
