@@ -108,5 +108,18 @@ b {
   margin-top: 145px;
   width: 100%;
   background-color: lightgray;
-  color: red;
+  color: black;
+}
+.Whatisamongus{
+  width: 100%;
+  z-index: 1;
+}
+.description{
+  color: white;
+  margin-top: -500px;
+  font-size: 20px;
+  width: 300px;
+  border: 2px solid black;
+  float: left;
+  z-index: 2;
 }
