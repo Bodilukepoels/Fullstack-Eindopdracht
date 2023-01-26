@@ -1,35 +1,48 @@
-body{
-    height: 1900px;
-    overflow: hidden;
-    font-family: sans-serif;
+body {
+  padding: 0;
+  font-family: sans-serif;
 }
-.webMark{
+
+.webMark {
   position: relative;
   top: 0;
 }
-.mongus{
+
+.mongus {
   float: left;
 }
-.topText{
+
+.topText {
   font-size: 40px;
   line-height: 50px;
 }
-.bottomText{
+
+.bottomText {
   line-height: 0px;
 }
-r{
+
+r {
   color: red;
 }
-.web{
+
+.web {
   border-bottom: 3px solid black;
 }
+
 /* Navbar */
 .topnav {
-  padding: 20px;
-  margin-top: 10px;
+  box-shadow: 0px 10px 10px 0px black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 20px;
   background-color: white;
   overflow: hidden;
   transition: all 2s;
+  width: 20%;
 }
 
 .topnav a {
@@ -41,10 +54,11 @@ r{
   font-size: 17px;
 }
 
-.topnav a{
+.topnav a {
   display: inline-block;
   text-decoration: none;
 }
+
 .topnav a::after {
   content: '';
   display: block;
@@ -53,6 +67,7 @@ r{
   transition: width .3s;
   border-bottom: 1px solid red;
 }
+
 .topnav a:hover::after {
   width: 100%;
   transition: width .3s;
