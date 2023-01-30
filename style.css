@@ -11,15 +11,26 @@ body {
 }
 
 .mongus {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: sticky;
+  float: left;
+  top: 20px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px 0px black;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
 }
 .login{
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  position: sticky;
+  float: right;
+  top: 20px;
   cursor: pointer;
+  box-shadow: 0px 10px 10px 0px black;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: white;
+  margin: 5px;
 }
 
 .topText {
@@ -38,7 +49,6 @@ b {
 .web {
   width: 100%;
   text-align: center;
-  border-bottom: 3px solid black;
 }
 .gif{
   margin-top: 50px;
@@ -49,9 +59,14 @@ b {
   border-radius: 20px;
   box-shadow: 0px 10px 10px 0px black;
 }
-
+.fullNavbar{
+  position: sticky;
+  top: 20px;
+}
 /* Navbar */
 .topnav {
+  position: sticky;
+  top: 20px;
   box-shadow: 0px 10px 10px 0px black;
   margin-left: auto;
   margin-right: auto;
